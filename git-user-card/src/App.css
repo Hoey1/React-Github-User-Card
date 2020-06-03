@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Lobster&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+  padding: 0 10%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+  max-width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+* {
+  font-family: "Libre Baskerville", serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lobster", cursive;
+}
+.container {
+  padding: 1%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.container h1 {
   color: white;
+  font-size: 5rem;
+  text-shadow: 5px 5px 5px black;
+}
+h2 {
+  font-size: 2.75rem;
 }
 
-.App-link {
-  color: #61dafb;
+.img-wrapper {
+  width: 35%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img-wrapper img {
+  border-radius: 30px;
+}
+.card {
+  background-color: white;
+  padding: 6%;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 30px;
+  align-items: center;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+.user-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.followers-container h2 {
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+.followers-container .card {
+  border-radius: 0;
+}
+.followers-container .card h2 {
+  color: black;
+  text-shadow: none;
 }
