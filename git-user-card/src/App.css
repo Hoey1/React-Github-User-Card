@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.main {
+  background-color: #24292e;
+}
+.card {
+  display: flex;
+  justify-content: center;
+}
+.follower {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
