@@ -28,7 +28,7 @@ class GithubCard extends React.Component {
           <span className="bold">Followers:</span>{" "}
           {this.props.githubData.followers}
         </p>
-        <GitHubCalendar username="patrickharl" fullYear={false} />
+        <GitHubCalendar username="hoey1" fullYear={false} />
       </div>
     );
   }
