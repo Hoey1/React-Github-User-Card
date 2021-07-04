@@ -1,0 +1,15 @@
+.user-card {
+  width: 50%;
+  padding: 20px 10px 10px 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 3%;
+}
+.card-img {
+  border: 5px solid #28a745;
+  border-radius: 100px;
+}
+.bold {
+  font-weight: bold;
+}
